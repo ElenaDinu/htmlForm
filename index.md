@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" style="font-size: larger;font-size: 25;backface-visibility: 100%;backface-visibility: initial;border size: 100px;background-color: #7c7c981f;opacity: 1;background-repeat: repeat;background-size: 100%;">
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <title>Chestionar</title>
+
 </head>
 <body>
-<form action="save" style="width:400px; margin:auto;">
+<form action="save"  style="width:400px; margin:auto;">
 
     <h3>Chestionar satisfactie client</h3>
 
@@ -16,7 +16,6 @@
             a)	Cum evaluati modul in care s-a solutionat solicitarea dumneavoastra?
         </div>
     </div>
-
 
     <div class="custom-control custom-radio custom-control-inline">
         <input type="radio" name="INTREBARE_A"  value="Nesatisfacator"  class="custom-control-input">
@@ -74,9 +73,7 @@
         <input type="radio" name="INTREBARE_B"  value="Excelent"  class="custom-control-input">
         <label>Excelent</label>
     </div>
-
     <br>
-
     <div class="card c">
         <div class="card-body c">
             c)	Cum evaluati disponibilitatea si profesionalismul personalului de interventie?
@@ -171,8 +168,7 @@
         <input type="radio" name="INTREBARE_E"  value="Excelent"  class="custom-control-input">
         <label>Excelent</label>
     </div>
-<br>
-
+    <br>
     <div class="card f">
         <div class="card-body f">
             f)	Ce sugestii sau recomandari ne puteti oferi in ceea ce priveste imbunatatirea serviciilor sau a modului de lucru?
@@ -181,8 +177,10 @@
         </div>
     </div>
     <br>
-    <input class="btn btn-primary" type="submit" value="Submit">
+    <input class="btn btn-primary" type="submit" value="Submit"  >
+
 
 </form>
+
 </body>
 </html>
